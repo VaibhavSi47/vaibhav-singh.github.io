@@ -12,7 +12,7 @@ const PROFILE = {
   email: "imvaibhav777@gmail.com",
   phone: "+61 406 454 423",
   github: "https://github.com/imvaibhav777",
-  linkedin: "https://linkedin.com/in/imvaibhav777",
+  linkedin: "https://linkedin.com/in/vaibhav-singh-3806231a9",
   bio: "I build production-grade systems that perform under pressure — from high-concurrency trading infrastructure at Nasdaq Calypso to AI/ML pipelines in my USYD Master's. I care about clean architecture, measurable outcomes, and code that ships.",
 };
 
@@ -143,6 +143,7 @@ function NavBar() {
   }, []);
 
   const scrollTo = (id: string) => {
+    console.info("Scrolling to - ", id);
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
     setActive(id);
   };
@@ -379,11 +380,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vaibhav Singh — Software Engineer Sydney</title>
-        <meta name="description" content="Full-stack software engineer based in Sydney, NSW. 3 years at Nasdaq + USYD MSc in AI/Data Science. Java, TypeScript, Angular, React, Python, Spring." />
-        <meta name="keywords" content="software engineer sydney, full stack developer sydney, java developer sydney, angular developer sydney, AI engineer sydney" />
-        <meta property="og:title" content="Vaibhav Singh — Software Engineer Sydney" />
-        <meta property="og:description" content="Full-stack engineer. 3 yrs Nasdaq. USYD MSc AI/Data Science." />
+        <title>Vaibhav Singh — Senior Software Engineer Sydney</title>
+        <meta name="description" content="Full-stack software engineer based in Sydney, NSW. 3 years at Nasdaq + USYD MSc CS Advanced Entry in AI/Data Science. Java, TypeScript, Angular, React, Python, Spring." />
+        <meta name="keywords" content="senior software engineer sydney, full stack developer sydney, java developer sydney, angular developer sydney, AI engineer sydney" />
+        <meta property="og:title" content="Vaibhav Singh — Senior Software Engineer Sydney" />
+        <meta property="og:description" content="Full-stack engineer. 3 yrs Nasdaq. USYD MSc CS Advanced Entry in AI/Data Science." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet" />
