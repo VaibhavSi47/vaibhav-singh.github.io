@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true, // Required for static export if using next/image
   },
   // If your site is at username.github.io/repo-name/, add:
-  // basePath: '/your-repo-name',
+  basePath: '/vaibhav-singh.github.io',
 };
 
 export default nextConfig;
