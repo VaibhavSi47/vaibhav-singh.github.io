@@ -8,9 +8,9 @@ import Head from "next/head";
 const PROFILE = {
   name: "Vaibhav Ajay Singh",
   title: "Software Engineer · Sydney, NSW",
-  tagline: "Full-Stack Engineer × AI/ML · 3 yrs Nasdaq · USYD MSc",
+  tagline: "Full-Stack Engineer × AI/ML · 3+ yrs Nasdaq · USYD MSc Advance Entry DS & AI",
   email: "imvaibhav777@gmail.com",
-  phone: "+91 7400105353",
+  phone: "+61 406 454 423",
   github: "https://github.com/imvaibhav777",
   linkedin: "https://linkedin.com/in/imvaibhav777",
   bio: "I build production-grade systems that perform under pressure — from high-concurrency trading infrastructure at Nasdaq Calypso to AI/ML pipelines in my USYD Master's. I care about clean architecture, measurable outcomes, and code that ships.",
@@ -20,7 +20,7 @@ const EXPERIENCE = [
   {
     role: "Senior Software Developer",
     company: "Nasdaq",
-    period: "Mar 2025 – Present",
+    period: "Mar 2025 – Feb 2026",
     stack: ["Java", "Spring", "REST", "Angular"],
     bullets: [
       "Architected full-stack features on Calypso trading platform — reduced processing latency ~15% across 3 critical workflows",
@@ -31,7 +31,7 @@ const EXPERIENCE = [
   {
     role: "Software Developer",
     company: "Nasdaq (Acquired Adenza)",
-    period: "Dec 2023 – Mar 2025",
+    period: "Mar 2024 – Mar 2025",
     stack: ["Angular", "TypeScript", "Cypress", "Java"],
     bullets: [
       "Led Angular WebUI Modernization — upgraded 5 frameworks, 12 libraries, zero regression across 40+ components",
@@ -42,7 +42,7 @@ const EXPERIENCE = [
   {
     role: "Associate Software Developer",
     company: "Adenza",
-    period: "Dec 2022 – Dec 2023",
+    period: "Dec 2022 – March 2024",
     stack: ["Java", "Spring", "JUnit", "Oracle"],
     bullets: [
       "Resolved 30+ production defects in pricing/risk modules — MTTR cut 40%",
@@ -62,26 +62,26 @@ const EXPERIENCE = [
 
 const EDUCATION = [
   {
-    degree: "Master of Computer Science — Data Science & AI",
+    degree: "Master of Computer Science — Advanced Entry in Data Science & AI",
     school: "University of Sydney",
-    period: "Feb 2025 – Nov 2026",
+    period: "Feb 2026 – present (expected graduation Dec 2027)",
     note: "Distinction WAM · Penultimate year",
-    courses: ["Machine Learning", "Deep Learning", "Statistical Data Science", "Distributed Systems"],
+    courses: ["Machine Learning", "Deep Learning", "Statistical Data Science", "Distributed Systems", "Cloud Computing"],
   },
   {
     degree: "B.E. Electronics & Telecommunication Engineering",
     school: "Mumbai University",
     period: "Aug 2022",
     note: "CGPI: 7.83 / 10",
-    courses: [],
+    courses: ["Applied Mathematics", "Data Structures & Algorithms", "Operating Systems", "Fuzzy Logic", "Database Management"],
   },
 ];
 
 const SKILLS = {
   Languages: ["Java", "Python", "TypeScript", "JavaScript", "C++", "SQL"],
-  "Frontend": ["Angular", "React", "HTML5", "CSS3", "Cypress"],
-  "Backend & Cloud": ["Spring Boot", "Microservices", "REST APIs", "Oracle DB"],
-  "AI / Data": ["scikit-learn", "PyTorch", "Pandas", "NumPy", "Statistical Modelling"],
+  "Frontend": ["Next.js", "Angular", "React", "HTML5", "CSS3", "Cypress"],
+  "Backend & Cloud": ["AWS","Spring Boot", "Microservices", "REST APIs", "Oracle DB"],
+  "AI / Data": ["LLMs", "scikit-learn", "PyTorch", "Pandas", "NumPy", "Statistical Modelling"],
   "Tools": ["Git", "Jenkins", "Jira", "Confluence", "VS Code", "IntelliJ"],
 };
 
